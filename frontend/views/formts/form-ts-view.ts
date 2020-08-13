@@ -39,7 +39,7 @@ export class FormTSViewElement extends LitElement {
   render() {
     return html`
       <vaadin-vertical-layout id="wrapper" theme="padding">
-        <h1>Form</h1>
+        <h1>TS Form</h1>
         <vaadin-form-layout>
           <vaadin-form-item>
             <label slot="label">First name</label>

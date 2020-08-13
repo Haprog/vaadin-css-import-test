@@ -55,7 +55,7 @@ public class FormJavaView extends Div {
     }
 
     private void createTitle(VerticalLayout wrapper) {
-        H1 h1 = new H1("Form");
+        H1 h1 = new H1("Java Only Form");
         wrapper.add(h1);
     }
 
