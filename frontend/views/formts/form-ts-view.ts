@@ -1,4 +1,4 @@
-import { customElement, html, LitElement, unsafeCSS, property } from 'lit-element';
+import { customElement, html, LitElement, property } from 'lit-element';
 
 import '@vaadin/vaadin-button/vaadin-button';
 import '@vaadin/vaadin-form-layout/vaadin-form-item';
@@ -25,7 +25,7 @@ import PersonModel from '../../generated/com/example/application/data/entity/Per
 @customElement('form-ts-view')
 export class FormTSViewElement extends LitElement {
   static get styles() {
-    return [CSSModule('lumo-typography'), unsafeCSS(styles)];
+    return [CSSModule('lumo-typography'), styles];
   }
 
   @property({type: Boolean})
