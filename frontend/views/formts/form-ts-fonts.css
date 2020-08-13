@@ -1,0 +1,5 @@
+@import "color.css";
+
+h1, label, vaadin-button {
+    font-family: serif;
+}

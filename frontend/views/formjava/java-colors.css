@@ -1,0 +1,11 @@
+h1 {
+    color: darkolivegreen !important;
+}
+
+vaadin-button {
+    background-color: darkolivegreen;
+}
+
+vaadin-button[theme~="tertiary"] {
+    color: darkred;
+}

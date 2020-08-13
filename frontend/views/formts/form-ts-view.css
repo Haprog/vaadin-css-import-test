@@ -1,3 +1,6 @@
+@import "form-ts-fonts.css";
+@import "form-ts-spacing.css";
+
 :host {
     display: block;
     padding: 1rem;
